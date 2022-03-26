@@ -1,0 +1,205 @@
+{
+  "all": [
+    {
+      "questions": [
+        {
+          "id": 1,
+          "name": "Payment Method",
+          "type": "select_optional",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Cash" },
+            { "id": "2", "name": "Visa" },
+            { "id": "3", "name": "Master" },
+            { "id": "4", "name": "AE" },
+            { "id": "5", "name": "UnionPay" },
+            { "id": "6", "name": "Octopus" },
+            { "id": "7", "name": "Alipay" },
+            { "id": "8", "name": "WeChat Pay" },
+            { "id": "9", "name": "Apple Pay" },
+            { "id": "10", "name": "Google Pay" },
+            { "id": "11", "name": "JCB" },
+            { "id": "12", "name": "other" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "1",
+      "name": "restaurant",
+      "questions": [
+        {
+          "id": "1",
+          "name": "Friendship Level",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "1 (in a trolley or bag)" },
+            { "id": "2", "name": "2 (can hold pets)" },
+            { "id": "3", "name": "3 (can walk on the ground)" },
+            { "id": "4", "name": "4 (can be seated in the owner's room)" },
+            { "id": "5", "name": "5(people and pets eat together)" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Restaurant Operation Mode",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Class A" },
+            { "id": "2", "name": "Class B" },
+            { "id": "3", "name": "Class C" },
+            { "id": "4", "name": "Class D" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Number of friendly tables available",
+          "type": "question_number"
+        },
+        {
+          "id": "4",
+          "name": "Number of friendly seats available",
+          "type": "question_number"
+        },
+        {
+          "id": "5",
+          "name": "Restaurant Operation Mode",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "under $100" },
+            { "id": "2", "name": "$101-$200" },
+            { "id": "3", "name": "$201-$300" },
+            { "id": "4", "name": "301-$400" },
+            { "id": "5", "name": "$400 UP" }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "WiFi available",
+          "type": "yes_no"
+        },
+        {
+          "id": "7",
+          "name": "Add 10% service charge",
+          "type": "yes_no"
+        },
+        {
+          "id": "8",
+          "name": "Online reservation",
+          "type": "yes_no"
+        },
+        {
+          "id": "9",
+          "name": "Pet Menu",
+          "type": "yes_no"
+        },
+        {
+          "id": "10",
+          "name": "Punch slot",
+          "type": "yes_no"
+        },
+        {
+          "id": "11",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "12",
+          "name": "Cut Fee",
+          "type": "question_number"
+        },
+        {
+          "id": "13",
+          "name": "TV broadcast",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Pet Food Store",
+      "questions": [
+        {
+          "id": "1",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Fresh" },
+            { "id": "2", "name": "Dry food and canned food" },
+            { "id": "3", "name": "Snacks" },
+            { "id": "4", "name": "Nutrition Supplements" },
+            { "id": "5", "name": "Organic Food" },
+            { "id": "6", "name": "Pet Baking" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pet Supply Store",
+      "questions": [
+        {
+          "id": "1",
+          "name": "Product Category",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Daily Items" },
+            { "id": "2", "name": "Clothing/Accessories" },
+            { "id": "3", "name": "Handmade Product" },
+            { "id": "4", "name": "Organic Supplies" },
+            { "id": "5", "name": "Custom Made Products" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Good place to go",
+      "questions": [
+        {
+          "id": "1",
+          "name": "Venue",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Camp" },
+            { "id": "2", "name": "Pool" },
+            { "id": "3", "name": "Party Room" },
+            { "id": "4", "name": "Hotel" },
+            { "id": "5", "name": "Park" },
+            { "id": "6", "name": "Mall" },
+            { "id": "7", "name": "Hike path" },
+            { "id": "8", "name": "Beach" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Friendship Level",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "Put in a trolley or bag" },
+            { "id": "2", "name": "Can hold pets" },
+            { "id": "3", "name": "Can be tethered to the ground" },
+            { "id": "4", "name": "Can be seated in the master room" },
+            { "id": "5", "name": "Meal with pets" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Grass",
+          "type": "yes_no"
+        }
+      ]
+    }
+  ]
+}

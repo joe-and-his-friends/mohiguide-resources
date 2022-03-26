@@ -1,0 +1,466 @@
+{
+  "all": [
+    {
+      "questions": [
+        {
+          "id": 1,
+          "name": "付款方式",
+          "type": "select_optional",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "現金" },
+            { "id": "2", "name": "Visa" },
+            { "id": "3", "name": "Master" },
+            { "id": "4", "name": "AE" },
+            { "id": "5", "name": "銀聯" },
+            { "id": "6", "name": "八達通" },
+            { "id": "7", "name": "支付寶" },
+            { "id": "8", "name": "微信支付" },
+            { "id": "9", "name": "Apple Pay" },
+            { "id": "10", "name": "Google Pay" },
+            { "id": "11", "name": "JCB" },
+            { "id": "12", "name": "其他" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "1",
+      "name": "餐廳",
+      "questions": [
+        {
+          "id": "1",
+          "name": "友善級別",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "1(放在手推車或袋)" },
+            { "id": "2", "name": "2(可手抱寵物)" },
+            { "id": "3", "name": "3(可落地行走)" },
+            { "id": "4", "name": "4(能與主人室內同座)" },
+            { "id": "5", "name": "5(人寵共膳)" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "餐廳運作模式",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "A 類" },
+            { "id": "2", "name": "B 類" },
+            { "id": "3", "name": "C 類" },
+            { "id": "4", "name": "D 類" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "提供友善枱數量",
+          "type": "question_number"
+        },
+        {
+          "id": "4",
+          "name": "提供友善座位數量",
+          "type": "question_number"
+        },
+        {
+          "id": "5",
+          "name": "餐廳運作模式",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "$100以下" },
+            { "id": "2", "name": "$101-$200" },
+            { "id": "3", "name": "$201-$300" },
+            { "id": "4", "name": "301-$400" },
+            { "id": "5", "name": "$400 UP" }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "提供WiFi",
+          "type": "yes_no"
+        },
+        {
+          "id": "7",
+          "name": "加一服務費",
+          "type": "yes_no"
+        },
+        {
+          "id": "8",
+          "name": "網上訂座",
+          "type": "yes_no"
+        },
+        {
+          "id": "9",
+          "name": "寵物餐單",
+          "type": "yes_no"
+        },
+        {
+          "id": "10",
+          "name": "打卡位",
+          "type": "yes_no"
+        },
+        {
+          "id": "11",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "12",
+          "name": "切餅費",
+          "type": "question_number"
+        },
+        {
+          "id": "13",
+          "name": "電視播放",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "寵物食品商店",
+      "questions": [
+        {
+          "id": "1",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "鮮食" },
+            { "id": "2", "name": "乾糧及罐頭" },
+            { "id": "3", "name": "零食" },
+            { "id": "4", "name": "營養保健品" },
+            { "id": "5", "name": "有機食品" },
+            { "id": "6", "name": "寵物烘焙" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "寵物用品商店",
+      "questions": [
+        {
+          "id": "1",
+          "name": "產品種類",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "日常用品" },
+            { "id": "2", "name": "服裝/配飾" },
+            { "id": "3", "name": "手造產品" },
+            { "id": "4", "name": "有機用品" },
+            { "id": "5", "name": "訂造產品" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "好去處",
+      "questions": [
+        {
+          "id": "1",
+          "name": "場地",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "營地" },
+            { "id": "2", "name": "游泳池" },
+            { "id": "3", "name": "派對房" },
+            { "id": "4", "name": "酒店" },
+            { "id": "5", "name": "公園" },
+            { "id": "6", "name": "商場" },
+            { "id": "7", "name": "行山路徑" },
+            { "id": "8", "name": "沙灘" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "友善級別",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "放在手推車或袋" },
+            { "id": "2", "name": "可手抱寵物" },
+            { "id": "3", "name": "可繫繩落地行走" },
+            { "id": "4", "name": "能與主人室內同座" },
+            { "id": "5", "name": "人寵共膳" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "草地",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Dog Parking",
+          "type": "yes_no"
+        },
+        {
+          "id": "6",
+          "name": "加一服務費",
+          "type": "yes_no"
+        },
+        {
+          "id": "7",
+          "name": "網上預約",
+          "type": "yes_no"
+        },
+        {
+          "id": "8",
+          "name": "打卡位",
+          "type": "yes_no"
+        },
+        {
+          "id": "9",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "10",
+          "name": "電視播放",
+          "type": "yes_no"
+        },
+        {
+          "id": "11",
+          "name": "提供人類食物",
+          "type": "yes_no"
+        },
+        {
+          "id": "12",
+          "name": "提供寵物食物",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "獸醫",
+      "questions": [
+        {
+          "id": "1",
+          "name": "分類",
+          "type": "select_optional",
+          "max": 5,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "一般門診" },
+            { "id": "2", "name": "特別專科" },
+            { "id": "3", "name": "24小時緊急服務" },
+            { "id": "4", "name": "防疫注射" },
+            { "id": "5", "name": "絕育" },
+            { "id": "6", "name": "牙齒護理" },
+            { "id": "7", "name": "身體檢查" },
+            { "id": "8", "name": "晶片植入" },
+            { "id": "9", "name": "手術" },
+            { "id": "10", "name": "體重管理" },
+            { "id": "11", "name": "物理治療" },
+            { "id": "12", "name": "出診服務" },
+            { "id": "13", "name": "中醫" },
+            { "id": "14", "name": "針灸" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "3",
+          "name": "加一服務費",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "網上預約",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Vip Room",
+          "type": "yes_no"
+        }
+      ]
+    },
+
+    {
+      "id": "6",
+      "name": "美容",
+      "questions": [
+        {
+          "id": "1",
+          "name": "項目種類",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "沖涼" },
+            { "id": "2", "name": "剪毛" },
+            { "id": "3", "name": "水療" },
+            { "id": "4", "name": "免麻醉洗牙" },
+            { "id": "5", "name": "耳部護理" },
+            { "id": "6", "name": "指甲護理" },
+            { "id": "7", "name": "肛門腺護理" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "3",
+          "name": "加一服務費",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "網上預約",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "6",
+          "name": "電視播放",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "寵物課程",
+      "questions": [
+        {
+          "id": "1",
+          "name": "課程種類",
+          "type": "select_optional",
+          "min": 1,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "烘焙或鮮食課程" },
+            { "id": "2", "name": "美容課程" },
+            { "id": "3", "name": "按摩課程" },
+            { "id": "4", "name": "訓練課程" },
+            { "id": "5", "name": "旅遊課程" },
+            { "id": "6", "name": "傳心課程" },
+            { "id": "7", "name": "營養課程" },
+            { "id": "8", "name": "服飾課程" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "活動",
+      "questions": [
+        {
+          "id": "1",
+          "name": "可提供服務",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "網上訂票" },
+            { "id": "2", "name": "網上報名" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "領養及義工",
+      "questions": [
+        {
+          "id": "1",
+          "name": "可提供服務",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "領養" },
+            { "id": "2", "name": "慈善活動" },
+            { "id": "3", "name": "救援服務" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "人員需求",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "需要義工" },
+            { "id": "2", "name": "需要領養者" },
+            { "id": "3", "name": "需要捐款者" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "物資需求",
+          "required": true,
+          "type": "question_string"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "寵物訓練",
+      "questions": [
+        {
+          "id": "1",
+          "name": "訓練課程",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": {
+            "1": "幼犬訓練",
+            "2": "行為矯正",
+            "3": "服從訓練",
+            "4": "私人教學",
+            "5": "治療犬訓練"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "其他寵物服務",
+      "type": "select_one",
+      "required": true,
+      "questions": [
+        {
+          "selection": [
+            { "id": "1", "name": "寵物烘焙" },
+            { "id": "2", "name": "動物傳心" },
+            { "id": "3", "name": "遛狗保姆" },
+            { "id": "4", "name": "上門寵物保姆" },
+            { "id": "5", "name": "寵物寄養" },
+            { "id": "6", "name": "寵物按摩" },
+            { "id": "7", "name": "寵物接送" },
+            { "id": "8", "name": "寵物善終" },
+            { "id": "9", "name": "寵物攝影" },
+            { "id": "10", "name": "寵物保險--貓狗保險" },
+            { "id": "11", "name": "寵物售賣" },
+            { "id": "12", "name": "寵物暫托" },
+            { "id": "13", "name": "寵物旅遊" },
+            { "id": "14", "name": "寵物移民" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "all": [
+    {
+      "questions": [
+        {
+          "id": 1,
+          "name": "付款方式",
+          "type": "select_optional",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "现金" },
+            { "id": "2", "name": "Visa" },
+            { "id": "3", "name": "Master" },
+            { "id": "4", "name": "AE" },
+            { "id": "5", "name": "银联" },
+            { "id": "6", "name": "八达通" },
+            { "id": "7", "name": "支付宝" },
+            { "id": "8", "name": "微信支付" },
+            { "id": "9", "name": "Apple Pay" },
+            { "id": "10", "name": "Google Pay" },
+            { "id": "11", "name": "JCB" },
+            { "id": "12", "name": "其他" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "1",
+      "name": "餐厅",
+      "questions": [
+        {
+          "id": "1",
+          "name": "友善级别",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "1(放在手推车或袋)" },
+            { "id": "2", "name": "2(可手抱宠物)" },
+            { "id": "3", "name": "3(可落地行走)" },
+            { "id": "4", "name": "4(能与主人室内同座)" },
+            { "id": "5", "name": "5(人宠共膳)" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "餐厅运作模式",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "A 类" },
+            { "id": "2", "name": "B 类" },
+            { "id": "3", "name": "C 类" },
+            { "id": "4", "name": "D 类" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "提供友善枱数量",
+          "type": "question_number"
+        },
+        {
+          "id": "4",
+          "name": "提供友善座位数量",
+          "type": "question_number"
+        },
+        {
+          "id": "5",
+          "name": "餐厅运作模式",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "$100以下" },
+            { "id": "2", "name": "$101-$200" },
+            { "id": "3", "name": "$201-$300" },
+            { "id": "4", "name": "301-$400" },
+            { "id": "5", "name": "$400 UP" }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "提供WiFi",
+          "type": "yes_no"
+        },
+        {
+          "id": "7",
+          "name": "加一服务费",
+          "type": "yes_no"
+        },
+        {
+          "id": "8",
+          "name": "网上订座",
+          "type": "yes_no"
+        },
+        {
+          "id": "9",
+          "name": "宠物餐单",
+          "type": "yes_no"
+        },
+        {
+          "id": "10",
+          "name": "打卡位",
+          "type": "yes_no"
+        },
+        {
+          "id": "11",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "12",
+          "name": "切饼费",
+          "type": "question_number"
+        },
+        {
+          "id": "13",
+          "name": "电视播放",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "宠物食品商店",
+      "questions": [
+        {
+          "id": "1",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "鲜食" },
+            { "id": "2", "name": "干粮及罐头" },
+            { "id": "3", "name": "零食" },
+            { "id": "4", "name": "营养保健品" },
+            { "id": "5", "name": "有机食品" },
+            { "id": "6", "name": "宠物烘焙" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "宠物用品商店",
+      "questions": [
+        {
+          "id": "1",
+          "name": "产品种类",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "日常用品" },
+            { "id": "2", "name": "服装/配饰" },
+            { "id": "3", "name": "手造产品" },
+            { "id": "4", "name": "有机用品" },
+            { "id": "5", "name": "订造产品" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "好去处",
+      "questions": [
+        {
+          "id": "1",
+          "name": "场地",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "营地" },
+            { "id": "2", "name": "游泳池" },
+            { "id": "3", "name": "派对房" },
+            { "id": "4", "name": "酒店" },
+            { "id": "5", "name": "公园" },
+            { "id": "6", "name": "商场" },
+            { "id": "7", "name": "行山路径" },
+            { "id": "8", "name": "沙滩" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "友善级别",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "放在手推车或袋" },
+            { "id": "2", "name": "可手抱宠物" },
+            { "id": "3", "name": "可系绳落地行走" },
+            { "id": "4", "name": "能与主人室内同座" },
+            { "id": "5", "name": "人宠共膳" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "草地",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Dog Parking",
+          "type": "yes_no"
+        },
+        {
+          "id": "6",
+          "name": "加一服务费",
+          "type": "yes_no"
+        },
+        {
+          "id": "7",
+          "name": "网上预约",
+          "type": "yes_no"
+        },
+        {
+          "id": "8",
+          "name": "打卡位",
+          "type": "yes_no"
+        },
+        {
+          "id": "9",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "10",
+          "name": "电视播放",
+          "type": "yes_no"
+        },
+        {
+          "id": "11",
+          "name": "提供人类食物",
+          "type": "yes_no"
+        },
+        {
+          "id": "12",
+          "name": "提供宠物食物",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "兽医",
+      "questions": [
+        {
+          "id": "1",
+          "name": "分类",
+          "type": "select_optional",
+          "max": 5,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "一般门诊" },
+            { "id": "2", "name": "特别专科" },
+            { "id": "3", "name": "24小时紧急服务" },
+            { "id": "4", "name": "防疫注射" },
+            { "id": "5", "name": "绝育" },
+            { "id": "6", "name": "牙齿护理" },
+            { "id": "7", "name": "身体检查" },
+            { "id": "8", "name": "晶片植入" },
+            { "id": "9", "name": "手术" },
+            { "id": "10", "name": "体重管理" },
+            { "id": "11", "name": "物理治疗" },
+            { "id": "12", "name": "出诊服务" },
+            { "id": "13", "name": "中医" },
+            { "id": "14", "name": "针灸" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "3",
+          "name": "加一服务费",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "网上预约",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Vip Room",
+          "type": "yes_no"
+        }
+      ]
+    },
+
+    {
+      "id": "6",
+      "name": "美容",
+      "questions": [
+        {
+          "id": "1",
+          "name": "项目种类",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "冲凉" },
+            { "id": "2", "name": "剪毛" },
+            { "id": "3", "name": "水疗" },
+            { "id": "4", "name": "免麻醉洗牙" },
+            { "id": "5", "name": "耳部护理" },
+            { "id": "6", "name": "指甲护理" },
+            { "id": "7", "name": "肛门腺护理" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Wi-Fi",
+          "type": "yes_no"
+        },
+        {
+          "id": "3",
+          "name": "加一服务费",
+          "type": "yes_no"
+        },
+        {
+          "id": "4",
+          "name": "网上预约",
+          "type": "yes_no"
+        },
+        {
+          "id": "5",
+          "name": "Vip Room",
+          "type": "yes_no"
+        },
+        {
+          "id": "6",
+          "name": "电视播放",
+          "type": "yes_no"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "宠物课程",
+      "questions": [
+        {
+          "id": "1",
+          "name": "课程种类",
+          "type": "select_optional",
+          "min": 1,
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "烘焙或鲜食课程" },
+            { "id": "2", "name": "美容课程" },
+            { "id": "3", "name": "按摩课程" },
+            { "id": "4", "name": "训练课程" },
+            { "id": "5", "name": "旅游课程" },
+            { "id": "6", "name": "传心课程" },
+            { "id": "7", "name": "营养课程" },
+            { "id": "8", "name": "服饰课程" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "活动",
+      "questions": [
+        {
+          "id": "1",
+          "name": "可提供服务",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "网上订票" },
+            { "id": "2", "name": "网上报名" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "领养及义工",
+      "questions": [
+        {
+          "id": "1",
+          "name": "可提供服务",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "领养" },
+            { "id": "2", "name": "慈善活动" },
+            { "id": "3", "name": "救援服务" }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "人员需求",
+          "type": "select_one",
+          "required": true,
+          "selection": [
+            { "id": "1", "name": "需要义工" },
+            { "id": "2", "name": "需要领养者" },
+            { "id": "3", "name": "需要捐款者" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "物资需求",
+          "required": true,
+          "type": "question_string"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "宠物训练",
+      "questions": [
+        {
+          "id": "1",
+          "name": "训练课程",
+          "type": "select_optional",
+          "max": 3,
+          "required": true,
+          "selection": {
+            "1": "幼犬训练",
+            "2": "行为矫正",
+            "3": "服从训练",
+            "4": "私人教学",
+            "5": "治疗犬训练"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "其他宠物服务",
+      "type": "select_one",
+      "required": true,
+      "questions": [
+        {
+          "selection": [
+            { "id": "1", "name": "宠物烘焙" },
+            { "id": "2", "name": "动物传心" },
+            { "id": "3", "name": "遛狗保姆" },
+            { "id": "4", "name": "上门宠物保姆" },
+            { "id": "5", "name": "宠物寄养" },
+            { "id": "6", "name": "宠物按摩" },
+            { "id": "7", "name": "宠物接送" },
+            { "id": "8", "name": "宠物善终" },
+            { "id": "9", "name": "宠物摄影" },
+            { "id": "10", "name": "宠物保险--猫狗保险" },
+            { "id": "11", "name": "宠物售卖" },
+            { "id": "12", "name": "宠物暂托" },
+            { "id": "13", "name": "宠物旅游" },
+            { "id": "14", "name": "宠物移民" }
+          ]
+        }
+      ]
+    }
+  ]
+}
